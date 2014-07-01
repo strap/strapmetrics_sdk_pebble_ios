@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA86302619626C7B00CD4AC4 /* StrapMetrics.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA86302519626C7B00CD4AC4 /* StrapMetrics.h */; };
+		AA86302819626C7B00CD4AC4 /* StrapMetrics.m in Sources */ = {isa = PBXBuildFile; fileRef = AA86302719626C7B00CD4AC4 /* StrapMetrics.m */; };
+		AA86302E19626C7B00CD4AC4 /* libStrapMetrics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA86302219626C7B00CD4AC4 /* libStrapMetrics.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA86302F19626C7B00CD4AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA86301A19626C7B00CD4AC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA86302119626C7B00CD4AC4;
+			remoteInfo = StrapMetrics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA86302019626C7B00CD4AC4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				AA86302619626C7B00CD4AC4 /* StrapMetrics.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA86302219626C7B00CD4AC4 /* libStrapMetrics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStrapMetrics.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA86302519626C7B00CD4AC4 /* StrapMetrics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrapMetrics.h; sourceTree = "<group>"; };
+		AA86302719626C7B00CD4AC4 /* StrapMetrics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrapMetrics.m; sourceTree = "<group>"; };
+		AA86302D19626C7B00CD4AC4 /* StrapMetricsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrapMetricsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA86303319626C7B00CD4AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA86301F19626C7B00CD4AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA86302A19626C7B00CD4AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA86302E19626C7B00CD4AC4 /* libStrapMetrics.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA86301919626C7B00CD4AC4 = {
+			isa = PBXGroup;
+			children = (
+				AA86302419626C7B00CD4AC4 /* StrapMetrics */,
+				AA86303119626C7B00CD4AC4 /* StrapMetricsTests */,
+				AA86302319626C7B00CD4AC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA86302319626C7B00CD4AC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA86302219626C7B00CD4AC4 /* libStrapMetrics.a */,
+				AA86302D19626C7B00CD4AC4 /* StrapMetricsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA86302419626C7B00CD4AC4 /* StrapMetrics */ = {
+			isa = PBXGroup;
+			children = (
+				AA86302519626C7B00CD4AC4 /* StrapMetrics.h */,
+				AA86302719626C7B00CD4AC4 /* StrapMetrics.m */,
+			);
+			path = StrapMetrics;
+			sourceTree = "<group>";
+		};
+		AA86303119626C7B00CD4AC4 /* StrapMetricsTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA86303219626C7B00CD4AC4 /* Supporting Files */,
+			);
+			path = StrapMetricsTests;
+			sourceTree = "<group>";
+		};
+		AA86303219626C7B00CD4AC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA86303319626C7B00CD4AC4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA86302119626C7B00CD4AC4 /* StrapMetrics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA86303619626C7B00CD4AC4 /* Build configuration list for PBXNativeTarget "StrapMetrics" */;
+			buildPhases = (
+				AA86301E19626C7B00CD4AC4 /* Sources */,
+				AA86301F19626C7B00CD4AC4 /* Frameworks */,
+				AA86302019626C7B00CD4AC4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StrapMetrics;
+			productName = StrapMetrics;
+			productReference = AA86302219626C7B00CD4AC4 /* libStrapMetrics.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AA86302C19626C7B00CD4AC4 /* StrapMetricsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA86303919626C7B00CD4AC4 /* Build configuration list for PBXNativeTarget "StrapMetricsTests" */;
+			buildPhases = (
+				AA86302919626C7B00CD4AC4 /* Sources */,
+				AA86302A19626C7B00CD4AC4 /* Frameworks */,
+				AA86302B19626C7B00CD4AC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA86303019626C7B00CD4AC4 /* PBXTargetDependency */,
+			);
+			name = StrapMetricsTests;
+			productName = StrapMetricsTests;
+			productReference = AA86302D19626C7B00CD4AC4 /* StrapMetricsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA86301A19626C7B00CD4AC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = strap;
+				TargetAttributes = {
+					AA86302119626C7B00CD4AC4 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					AA86302C19626C7B00CD4AC4 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = AA86302119626C7B00CD4AC4;
+					};
+				};
+			};
+			buildConfigurationList = AA86301D19626C7B00CD4AC4 /* Build configuration list for PBXProject "StrapMetrics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA86301919626C7B00CD4AC4;
+			productRefGroup = AA86302319626C7B00CD4AC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA86302119626C7B00CD4AC4 /* StrapMetrics */,
+				AA86302C19626C7B00CD4AC4 /* StrapMetricsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA86302B19626C7B00CD4AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA86301E19626C7B00CD4AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA86302819626C7B00CD4AC4 /* StrapMetrics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA86302919626C7B00CD4AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA86303019626C7B00CD4AC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA86302119626C7B00CD4AC4 /* StrapMetrics */;
+			targetProxy = AA86302F19626C7B00CD4AC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA86303419626C7B00CD4AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA86303519626C7B00CD4AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA86303719626C7B00CD4AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AA86303819626C7B00CD4AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AA86303A19626C7B00CD4AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StrapMetricsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA86303B19626C7B00CD4AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StrapMetricsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA86301D19626C7B00CD4AC4 /* Build configuration list for PBXProject "StrapMetrics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA86303419626C7B00CD4AC4 /* Debug */,
+				AA86303519626C7B00CD4AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA86303619626C7B00CD4AC4 /* Build configuration list for PBXNativeTarget "StrapMetrics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA86303719626C7B00CD4AC4 /* Debug */,
+				AA86303819626C7B00CD4AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA86303919626C7B00CD4AC4 /* Build configuration list for PBXNativeTarget "StrapMetricsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA86303A19626C7B00CD4AC4 /* Debug */,
+				AA86303B19626C7B00CD4AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA86301A19626C7B00CD4AC4 /* Project object */;
+}
