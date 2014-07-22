@@ -6,10 +6,27 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		AAB686FF19630EED00C210FF /* UniversalLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AAB6870019630EED00C210FF /* Build configuration list for PBXAggregateTarget "UniversalLib" */;
+			buildPhases = (
+				AAB6870319630F0A00C210FF /* Run Script */,
+			);
+			dependencies = (
+			);
+			name = UniversalLib;
+			productName = UniversalLib;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		AA86302619626C7B00CD4AC4 /* StrapMetrics.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA86302519626C7B00CD4AC4 /* StrapMetrics.h */; };
 		AA86302819626C7B00CD4AC4 /* StrapMetrics.m in Sources */ = {isa = PBXBuildFile; fileRef = AA86302719626C7B00CD4AC4 /* StrapMetrics.m */; };
 		AA86302E19626C7B00CD4AC4 /* libStrapMetrics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA86302219626C7B00CD4AC4 /* libStrapMetrics.a */; };
+		AA86304319626F4700CD4AC4 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA86303F19626F4700CD4AC4 /* CJSONDeserializer.m */; };
+		AA86304419626F4700CD4AC4 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA86304019626F4700CD4AC4 /* CJSONSerializer.m */; };
+		AA86304519626F4700CD4AC4 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AA86304219626F4700CD4AC4 /* NSDictionary_JSONExtensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +58,13 @@
 		AA86302719626C7B00CD4AC4 /* StrapMetrics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrapMetrics.m; sourceTree = "<group>"; };
 		AA86302D19626C7B00CD4AC4 /* StrapMetricsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrapMetricsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA86303319626C7B00CD4AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA86303C19626F4700CD4AC4 /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
+		AA86303D19626F4700CD4AC4 /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
+		AA86303E19626F4700CD4AC4 /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
+		AA86303F19626F4700CD4AC4 /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer.m; sourceTree = "<group>"; };
+		AA86304019626F4700CD4AC4 /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
+		AA86304119626F4700CD4AC4 /* JSONRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRepresentation.h; sourceTree = "<group>"; };
+		AA86304219626F4700CD4AC4 /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +107,13 @@
 		AA86302419626C7B00CD4AC4 /* StrapMetrics */ = {
 			isa = PBXGroup;
 			children = (
+				AA86303C19626F4700CD4AC4 /* CJSONSerializer.h */,
+				AA86303D19626F4700CD4AC4 /* NSDictionary_JSONExtensions.h */,
+				AA86303E19626F4700CD4AC4 /* CJSONDeserializer.h */,
+				AA86303F19626F4700CD4AC4 /* CJSONDeserializer.m */,
+				AA86304019626F4700CD4AC4 /* CJSONSerializer.m */,
+				AA86304119626F4700CD4AC4 /* JSONRepresentation.h */,
+				AA86304219626F4700CD4AC4 /* NSDictionary_JSONExtensions.m */,
 				AA86302519626C7B00CD4AC4 /* StrapMetrics.h */,
 				AA86302719626C7B00CD4AC4 /* StrapMetrics.m */,
 			);
@@ -175,6 +206,7 @@
 			targets = (
 				AA86302119626C7B00CD4AC4 /* StrapMetrics */,
 				AA86302C19626C7B00CD4AC4 /* StrapMetricsTests */,
+				AAB686FF19630EED00C210FF /* UniversalLib */,
 			);
 		};
 /* End PBXProject section */
@@ -189,11 +221,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AAB6870319630F0A00C210FF /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target StrapMetrics ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target ImageFilters -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA86301E19626C7B00CD4AC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA86304519626F4700CD4AC4 /* NSDictionary_JSONExtensions.m in Sources */,
+				AA86304419626F4700CD4AC4 /* CJSONSerializer.m in Sources */,
+				AA86304319626F4700CD4AC4 /* CJSONDeserializer.m in Sources */,
 				AA86302819626C7B00CD4AC4 /* StrapMetrics.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -283,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -340,6 +392,20 @@
 			};
 			name = Release;
 		};
+		AAB6870119630EED00C210FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAB6870219630EED00C210FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -359,12 +425,22 @@
 				AA86303819626C7B00CD4AC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA86303919626C7B00CD4AC4 /* Build configuration list for PBXNativeTarget "StrapMetricsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA86303A19626C7B00CD4AC4 /* Debug */,
 				AA86303B19626C7B00CD4AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB6870019630EED00C210FF /* Build configuration list for PBXAggregateTarget "UniversalLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB6870119630EED00C210FF /* Debug */,
+				AAB6870219630EED00C210FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

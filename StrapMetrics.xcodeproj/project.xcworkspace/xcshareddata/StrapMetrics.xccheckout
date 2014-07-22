@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>921A9C78-828D-4757-9E9C-8F40CC59AC20</string>
+	<key>IDESourceControlProjectName</key>
+	<string>StrapMetrics</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BDA24AD3-44C9-4D47-99AB-B23BDE3C1C75</key>
+		<string>ssh://bitbucket.org/strap/strapmetrics_sdk_pebble_ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>StrapMetrics.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BDA24AD3-44C9-4D47-99AB-B23BDE3C1C75</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://bitbucket.org/strap/strapmetrics_sdk_pebble_ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BDA24AD3-44C9-4D47-99AB-B23BDE3C1C75</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BDA24AD3-44C9-4D47-99AB-B23BDE3C1C75</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sdk-pebble-ios-lib-private</string>
+		</dict>
+	</array>
+</dict>
+</plist>
